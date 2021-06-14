@@ -1,4 +1,4 @@
-# Bank-system
+# Basic Banking system
 # The Sparks Foundation-A Graduate Rotational Internship Program
 Basic Banking System is a Website used to transfer money between multiple users(Project Contain 10 Dummy users). You can View Profile of all these users. And can Transfer Money between users and View Transaction History.
 
