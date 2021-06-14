@@ -1,0 +1,256 @@
+body{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+/*navbar and footer starts*/
+.heading {
+    text-decoration:none;
+    margin:1.7% 0 0 62%;
+}
+.heading li a{
+    display:inline;
+    text-align:center;
+    padding:5% 3% 0 0;
+    font-size:20px;
+    font-family:'Montserrat', sans-serif;
+    color:#1c524e;
+    text-decoration:none;
+}
+.heading li a:hover{
+    color:#21a87f;
+    font-size:22px;
+}
+#navbar{
+    position: fixed !important;
+    top:0;
+    left:0;
+    height:69px;;
+    width:100%;
+    background-color:rgb(255,255,255);
+    border-radius:0 0 15px 15px;
+    opacity:1.0;
+}
+#footer{
+    margin-top:auto;
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-family:'Staatliches',cursive;
+    padding-top:5px;
+}
+#contact{
+    font-size:24px;
+    color:black;
+    padding-left:10px;
+}
+#contact:hover{
+    color:#f1c40f;
+}
+/*navbar and footer ends*/
+/*home starts*/
+.home{
+    background-color:rgb(255,255,255);
+    width:100%;
+    height:100vh;
+    border-radius:15px;
+    margin-top:6%;
+}
+#img{
+    margin:1% 0 0 3%;
+    height:90vh;
+    width:60vw;
+    float:left;
+}
+.caption {
+    padding-top:10%;
+    margin-left:60%;
+    color: #21a87f;
+    font-size:40px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+}
+.caption p{
+    margin:1% 0 1% 0;
+}
+/*home ends*/
+/*service starts*/
+.services{
+    background-image: url('../images/homepage.jpg');
+    width:100%;
+    height:100%;
+    border-radius:15px;
+}
+.services h1{
+    text-align:center;
+    padding-top:5%;
+    font-size:30px;
+    font-family:'Montserrat', sans-serif;
+    color:#1c524e;
+}
+table td{
+    width:100px;
+    height:100px;
+    background-color:#92CF93;
+    border:2px solid #0B1C48;
+    border-radius:15px;
+    padding:30px;
+}
+table td p,span{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    color:#1c524e;
+    font-family:'Montserrat', sans-serif;
+}
+/*service ends*/
+/*about starts*/
+.about{
+    font-family:'Montserrat', sans-serif;
+    border-radius:15px;
+    color:#1c524e;
+}
+.about ul,li{
+    font-size:30px;
+    line-height: 40px;
+    list-style:square;
+    color:#1c524e;
+    font-family: 'Archivo Narrow', sans-serif;
+    display:inline;
+    padding:10px;
+}
+/*about ends*/
+/* customer page starts*/
+.customer{
+    background-image: url('../images/homepage.jpg');
+    width:100%;
+    height:100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position:center;
+}
+.custtable{
+    border-collapse:separate;
+    margin:auto;
+    width:80%;
+    border-spacing:15px;
+}
+.custtable th{
+    font-family:'Montserrat', sans-serif;
+    font-size:22px;
+    background:#C4DBE0;
+    color:#3c514e;
+    border-radius:15px;
+    margin-top:30%;
+}
+/*customer page ends*/
+/*choice starts*/
+.choice{
+    background-image: url('../images/homepage.jpg');
+    width:100%;
+    height:100vh;
+    border-radius:15px;
+}
+.choice h1{
+    text-align:center;
+    padding-top:10%;
+    font-size:30px;
+    font-family:'Montserrat', sans-serif;
+    color:#1c524e;
+}
+.chtable{
+    border-collapse:separate;
+    width:50%;
+    padding-top:4%;
+    margin:auto;
+    border-spacing:10px;
+}
+.chtable td{
+    width:100px;
+    height:100px;
+    background-color:#92CF93;
+    border:2px solid #0B1C48;
+    border-radius:15px;
+    padding:30px;
+}
+/*choice ends*/
+/*adduser starts*/
+.adduser{
+    background-image: url('../images/homepage.jpg');
+    width:100%;
+    height:100vh;
+    border-radius:15px;
+}
+.adduser h1{
+    text-align:center;
+    padding-top:10%;
+    font-size:30px;
+    font-family:'Montserrat', sans-serif;
+    color:#1c524e;
+}
+.none {
+    width:36%;
+    margin:auto;
+    height:auto;
+    background-color:#3c514e;
+    border-collapse: collapse;
+}
+.none tr td{
+    color:#1c524e;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding: 1%;
+    border:none;
+    border-radius: 0px;
+    opacity:0.8;
+}
+.none tr td input{
+    width:80%;
+    height:27%;
+}
+.success{
+    color:#00b894;
+    font-size:20px;
+    font-weight:bold;
+    margin:auto;
+    width:50%;
+    text-align:center;
+    padding:10px;
+}
+.failure{
+    color:#a8263b;
+    font-size:20px;
+    font-weight:bold;
+    margin:auto;
+    width:50%;
+    text-align:center;
+    padding:10px;
+}
+/*adduserends*/
+/*transfer starts*/
+.transfer{
+    background-image: url('../images/homepage.jpg');
+    width:100%;
+    height:100vh;
+    border-radius:15px; 
+}
+.transtable{
+    border-collapse:separate;
+    width:50%;
+    padding-top:10%;
+    margin:auto;
+    border-spacing:10px;
+}
+.transtable th{
+    font-family:'Montserrat', sans-serif;
+    font-size:22px;
+    background:#C4DBE0;
+    color:#3c514e;
+    border-radius:15px;
+    margin-top:30%;
+}
+/*transfer ends*/
